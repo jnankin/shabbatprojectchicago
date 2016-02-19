@@ -1,0 +1,10 @@
+title: Shabbos Project Chicago Northshore
+email: support@phaxio.com
+url: "http://www.theshabbatprojectchi-ns.com"
+markdown: kramdown
+permalink: blog/:year/:month/:day/:title.html
+exclude: [Gemfile, Gemfile.lock]
+
+sass:
+    style: compressed
+
