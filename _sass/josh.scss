@@ -1,0 +1,71 @@
+.form-collapse-table:hover {
+box-shadow:none;
+text-shadow:none;
+background: #00457c;
+}
+.form-line-active, .form-line-error {
+	background: transparent !important;
+}
+#contact a {
+	color: #EC2C69;
+}
+
+#contact p {
+	font-size: 20px;
+}
+
+.generalCommittee {
+	font-size:14px;
+	line-height: 20px;
+}
+
+.small {
+	margin-top: 10px;
+}
+
+#dedication {
+	width: 100%;
+}
+
+.title {
+	font-weight: bold;
+}
+
+#dedications {
+	border: 2px solid #e3df00;
+	border-radius: 10px;
+	border-collapse: initial;
+	text-align: center;
+	margin-left: 125px;
+}
+
+#dedications td {
+	padding: 10px;
+}
+
+td.title {
+	color: white;
+}
+
+.marquee {
+  width: 800px; /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+  font-weight: normal;
+  font-style: italic;
+}
+
+td.marqContainer {
+	vertical-align: middle;
+
+}
+
+td.button a.donate {
+	margin: 0px;
+	font-size: 10px;
+}
+
+@media (max-width: 600px) {
+  #dedications {
+    display: none;
+  }
+}

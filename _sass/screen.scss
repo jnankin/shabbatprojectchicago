@@ -1,0 +1,1125 @@
+@import url("http://hello.myfonts.net/count/2ed6ee");
+/*============================
+import variables
+=============================*/
+/*===============================
+Colors
+================================*/
+/*============================
+import mixins
+============================d=*/
+/*===============================
+BREAKPOINTS
+================================*/
+/*============================
+import base
+=============================*/
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3069678, 2015-08-03T12:37:30-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Gentona-ExtraBold by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/gentona/extra-bold/
+ * Copyright: Copyright &#x00A9; 2013 by Rene Bieder. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3069678
+ * 
+ * © 2015 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'Gentona-ExtraBold';
+  src: url("../fonts/2ED6EE_0_0.eot");
+  src: url("../fonts/2ED6EE_0_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/2ED6EE_0_0.woff2") format("woff2"), url("../fonts/2ED6EE_0_0.woff") format("woff"), url("../fonts/2ED6EE_0_0.ttf") format("truetype"), url("../fonts/2ED6EE_0_0.svg#wf") format("svg");
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+  font-size: 100%;
+}
+@media (min-width: 56.25em) {
+  body {
+    font-size: 90%;
+  }
+}
+@media (min-width: 64em) {
+  body {
+    font-size: 100%;
+  }
+}
+
+h1 {
+  font-family: "Gentona-ExtraBold";
+  font-size: 2.25em;
+  line-height: 0.9375em;
+  margin: 0 0 1.25em;
+}
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 2.25em;
+  }
+}
+
+.site-header h1 {
+  float: right;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin: 4em 2em 0 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Gentona-ExtraBold";
+  font-size: 1em;
+  line-height: 2.16em;
+  margin: 0 0 -1.25em 0;
+  font-weight: 300;
+}
+@media (min-width: 56.25em) {
+  h2 {
+    font-size: 1.75em;
+  }
+}
+
+.single h2 {
+  font-family: "Gentona-ExtraBold";
+  font-size: 1em;
+  line-height: 1.06em;
+  margin-bottom: 0 !important;
+  font-weight: 300;
+}
+@media (min-width: 56.25em) {
+  .single h2 {
+    font-size: 1.75em;
+  }
+}
+
+.blog-titles h2 {
+  line-height: 1.76em;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  margin: 0 0 1.25em;
+  line-height: 1.5em;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.multi {
+  -webkit-columns: 2 18em;
+  -moz-columns: 2 18em;
+  columns: 2 18em;
+  -webkit-column-gap: 34px;
+  -moz-column-gap: 34px;
+  column-gap: 34px;
+}
+
+.single p {
+  word-spacing: 0.05em;
+}
+
+.small-column p {
+  font-size: 0.875em;
+}
+
+p + p, h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p,
+p + h1, p + h2, p + h3, p + h4, p + h5, p + h6,
+h1 + h1, h1 + h2, h1 + h3, h1 + h4, h1 + h5, h1 + h6,
+h2 + h1, h2 + h2, h2 + h3, h2 + h4, h2 + h5, h2 + h6,
+h3 + h1, h3 + h2, h3 + h3, h3 + h4, h3 + h5, h3 + h6,
+h4 + h1, h4 + h2, h4 + h3, h4 + h4, h4 + h5, h4 + h6,
+h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h5, h5 + h6,
+h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5, h6 + h6,
+p + ul, h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul,
+ul + p, ul + h1, ul + h2, ul + h3, ul + h4, ul + h5, ul + h6,
+h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul,
+h1 + img, h2 + img, h3 + img, h4 + img, h5 + img, h6 + img,
+.extra-space + .extra-space {
+  margin: 1.25em 0;
+  font-weight: normal;
+}
+
+.single p + p, .single h1 + p, .single h2 + p, .single h3 + p, .single h4 + p, .single h5 + p, .single h6 + p,
+.single p + h1, .single p + h2, .single p + h3, .single p + h4, .single p + h5, .single p + h6,
+.single h1 + h1, .single h1 + h2, .single h1 + h3, .single h1 + h4, .single h1 + h5, .single h1 + h6,
+.single h2 + h1, .single h2 + h2, .single h2 + h3, .single h2 + h4, .single h2 + h5, .single h2 + h6,
+.single h3 + h1, .single h3 + h2, .single h3 + h3, .single h3 + h4, .single h3 + h5, .single h3 + h6,
+.single h4 + h1, .single h4 + h2, .single h4 + h3, .single h4 + h4, .single h4 + h5, .single h4 + h6,
+.single h5 + h1, .single h5 + h2, .single h5 + h3, .single h5 + h4, .single h5 + h5, .single h5 + h6,
+.single h6 + h1, .single h6 + h2, .single h6 + h3, .single h6 + h4, .single h6 + h5, .single h6 + h6,
+.single p + ul, .single h1 + ul, .single h2 + ul, .single h3 + ul, .single h4 + ul, .single h5 + ul, .single h6 + ul,
+.single ul + p, .single ul + h1, .single ul + h2, .single ul + h3, .single ul + h4, .single ul + h5, .single ul + h6,
+.single h1 + ul, .single h2 + ul, .single h3 + ul, .single h4 + ul, .single h5 + ul, .single h6 + ul,
+.single h1 + img, .single h2 + img, .single h3 + img, .single h4 + img, .single h5 + img, .single h6 + img,
+.single .extra-space + .extra-space {
+  margin: 1em 0 0 0;
+  font-weight: normal;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+}
+
+i, em {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+.main-headline {
+  font-size: 3.125em;
+  display: block;
+}
+
+.callout {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.15625em;
+  font-size: 1.75em !important;
+  text-transform: none !important;
+  text-align: center !important;
+  margin: 2em 0;
+}
+@media (min-width: 56.25em) {
+  .callout {
+    font-size: 2em !important;
+    line-height: 1.15625em;
+    margin: 4em 0;
+  }
+}
+
+.tiny {
+  font-size: 0.6875em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.small {
+  font-size: 80%;
+  margin-top: 8em;
+}
+
+.larger {
+  font-size: 4em;
+}
+
+.video .wrapper {
+  position: relative;
+}
+
+.video-headline {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3068043, 2015-07-30T10:07:25-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Gentona-ExtraBoldDEMO by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/gentona/extra-bold-demo/
+ * 
+ * Webfont: Gentona-ExtraBoldItalicDEMO by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/gentona/extra-bold-italic-demo/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3068043
+ * Licensed pageviews: 100,000
+ * Webfonts copyright: Copyright &#x00A9; 2013 by Rene Bieder. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+/*============================
+import Layout
+=============================*/
+.wrapper {
+  max-width: 87.5em;
+  margin: 0 auto;
+  width: 90%;
+  padding: 1em 0;
+  height: inherit;
+}
+@media (min-width: 56.25em) {
+  .wrapper {
+    width: 100%;
+    padding: 2em 0;
+  }
+}
+
+* body, * html, html {
+  width: 100%;
+  height: 100%;
+}
+
+.join-in-link, .sticky-donate, .donate {
+  text-transform: uppercase;
+}
+
+.hero-line {
+  width: 98%;
+  margin: 0 auto;
+}
+@media (min-width: 56.25em) {
+  .hero-line {
+    width: 56%;
+  }
+}
+
+.full-height {
+  min-height: 73%;
+  padding: 4em 0;
+}
+@media (min-width: 56.25em) {
+  .full-height {
+    height: 73%;
+    padding: 2em 0;
+  }
+}
+
+.regular-height {
+  padding: 100px 0;
+}
+
+.centered {
+  text-align: center;
+  height: 100%;
+}
+
+.centered:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.5em;
+  /* Adjusts for spacing */
+  width: 0.001em;
+}
+
+.centered-content {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.box-outline {
+  font-size: 0.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid;
+  padding: 0.6em 1em;
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+}
+@media (min-width: 56.25em) {
+  .box-outline {
+    font-size: 0.4em;
+  }
+}
+
+.video-thumb {
+  width: 100%;
+  margin: 0 0 -0.63em;
+  cursor: pointer;
+}
+
+.col.center-margin {
+  float: none;
+  margin: 0 auto;
+}
+
+.down-arrow {
+  display: block;
+  margin: 3em auto 0 auto;
+}
+
+.numberals {
+  font-size: 6em;
+  font-weight: bold;
+  display: block;
+  margin: 0.5em 0 0.35em;
+}
+@media (min-width: 56.25em) {
+  .numberals {
+    font-size: 8em;
+  }
+}
+
+.two-col {
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 1.875em;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 1.875em;
+  /* Firefox */
+  column-gap: 1.875em;
+}
+
+.margin-center {
+  margin: 0 auto;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-left p {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-center p {
+  text-align: center;
+}
+
+.block {
+  padding: 0 0;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.block.powder-blue {
+  border-left: 0.5em solid #ccdedd;
+  border-right: 0.5em solid #ccdedd;
+}
+
+.block.white {
+  border-left: 0.5em solid white;
+  border-right: 0.5em solid white;
+}
+
+.block.pink {
+  border-left: 0.5em solid #ec2c69;
+  border-right: 0.5em solid #ec2c69;
+}
+
+.video.regular-height, .video .wrapper {
+  padding: 0;
+}
+
+.blue {
+  background-color: #3e439b;
+}
+
+.purple {
+  background-color: #693b8f;
+}
+
+.light-blue {
+  background-color: #5ec4b4;
+}
+
+.powder-blue {
+  background-color: #ccdedd;
+}
+
+.muddy-purple {
+  background-color: #4d4e62;
+}
+
+.pink {
+  background-color: #ec2c69;
+}
+
+.yellow {
+  background-color: #e3df00;
+}
+
+.light-pink {
+  background-color: #ed5f8f;
+}
+
+.white {
+  background-color: white;
+}
+
+.bright-blue {
+  background-color: #67c0b3;
+}
+
+.color-blue {
+  color: #3e439b;
+}
+
+.color-purple {
+  color: #693b8f;
+}
+
+.color-light-blue {
+  color: #5ec4b4;
+}
+
+.color-powder-blue {
+  color: #ccdedd;
+}
+
+.color-muddy-purple {
+  color: #4d4e62;
+}
+
+.color-pink {
+  color: #ec2c69;
+}
+
+.color-light-pink {
+  color: #ed5f8f;
+}
+
+.color-yellow {
+  color: #e3df00;
+}
+
+.color-bright-blue {
+  color: #67c0b3;
+}
+
+.color-white {
+  color: white;
+}
+
+.main-site-footer .icons {
+  float: right;
+}
+
+.main-site-footer .icons a {
+  color: #e3df00;
+}
+
+@media (min-width: 56.25em) {
+  .icons {
+    display: inline-block;
+  }
+}
+.icons a {
+  color: #333333;
+}
+.icons i {
+  border: solid 1px;
+  padding: 0.35em 0;
+  border-radius: 1em;
+  width: 1.8em;
+  text-align: center;
+  margin: 2em 0 0 0.4em;
+}
+@media (min-width: 56.25em) {
+  .icons i {
+    margin: 0 0 0 0.4em;
+  }
+}
+
+.center, .center p {
+  text-align: center;
+}
+
+.margin-fix {
+  margin: -0.25em 0 -1em !important;
+}
+
+.blog-bg {
+  padding-top: 5em !important;
+  padding-bottom: 10em !important;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 56.25em) {
+  .blog-bg {
+    padding-bottom: 30em !important;
+  }
+}
+
+.blog-titles {
+  margin: 0 0 0 1em;
+}
+@media (min-width: 56.25em) {
+  .blog-titles {
+    margin: 0 0 0 5em;
+  }
+}
+
+.single-post .single-post {
+  font-size: 100%;
+}
+@media (min-width: 56.25em) {
+  .single-post .single-post {
+    font-size: 105%;
+  }
+}
+@media (min-width: 64em) {
+  .single-post .single-post {
+    font-size: 110%;
+  }
+}
+@media (min-width: 74em) {
+  .single-post .single-post {
+    font-size: 120%;
+  }
+}
+
+.single .regular-height {
+  padding: 2em 0;
+}
+@media (min-width: 56.25em) {
+  .single .regular-height {
+    padding: 4em 0;
+  }
+}
+
+.modal {
+  display: none;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+}
+@media (min-width: 56.25em) {
+  .modal {
+    padding: 5em 0 0 0;
+  }
+}
+.modal .wrapper {
+  position: absolute;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+}
+.modal h1 {
+  font-size: 1.5em;
+  text-transform: none;
+  margin: 0 0 1em 0;
+  line-height: 1.25em;
+  display: block;
+  float: left;
+}
+
+.site-header .modal h1 {
+  display: block;
+}
+
+.close {
+  float: right;
+  font-family: "Montserrat", sans-serif;
+  color: #e3df00;
+  border: 1px #e3df00 solid;
+  padding: 0 0.65em;
+  border-radius: 2em;
+  cursor: pointer;
+  z-index: 9999999;
+  position: relative;
+}
+
+.ninja-forms-cont {
+  clear: left;
+}
+
+/**
+ * Gridpak Beta SCSS 
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+/* Reusable column setup */
+.col {
+  border: 0px solid rgba(0, 0, 0, 0);
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding-box !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+}
+
+/* 1. 8 Column Grid 0px - Infinity 
+----------------------------------------------------------------------------- 
+
+Span 1:    12.5%
+Span 2:    25.0%
+Span 3:    37.5%
+Span 4:    50.0%
+Span 5:    62.5%
+Span 6:    75.0%
+Span 7:    87.5%
+Span 8:    100%
+
+----------------------------------------------------------------------------- */
+.row {
+  margin-left: -30px;
+  clear: left;
+}
+
+.col {
+  border-left-width: 30px;
+  padding: 0 0px;
+}
+
+/* --- Gridpak variables ---*/
+.skip-one {
+  margin-left: 0;
+}
+@media (min-width: 56.25em) {
+  .skip-one {
+    margin-left: 12.5% !important;
+  }
+}
+
+.skip-two {
+  margin-left: 0;
+}
+@media (min-width: 56.25em) {
+  .skip-two {
+    margin-left: 25.0% !important;
+  }
+}
+
+.skip-three {
+  margin-left: 0;
+}
+@media (min-width: 56.25em) {
+  .skip-three {
+    margin-left: 37.5% !important;
+  }
+}
+
+/*
+Add your semantic classnames in alongside their corresponding spans here. e.g.
+
+.span_3,
+.my_semantic_class_name {
+    ...
+}
+
+*/
+.span_1 {
+  width: 100%;
+}
+@media (min-width: 56.25em) {
+  .span_1 {
+    width: 12.5%;
+    border-left-width: 30px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+}
+
+.span_2 {
+  width: 100%;
+}
+@media (min-width: 56.25em) {
+  .span_2 {
+    width: 25%;
+    border-left-width: 30px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+}
+
+.span_3 {
+  width: 100%;
+}
+@media (min-width: 56.25em) {
+  .span_3 {
+    width: 37.5%;
+    border-left-width: 30px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+}
+
+.span_33 {
+  width: 100%;
+}
+@media (min-width: 56.25em) {
+  .span_33 {
+    width: 33%;
+    border-left-width: 30px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+}
+
+.span_4 {
+  width: 100%;
+}
+@media (min-width: 56.25em) {
+  .span_4 {
+    width: 50%;
+    border-left-width: 30px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+}
+
+.span_5 {
+  width: 100%;
+}
+@media (min-width: 56.25em) {
+  .span_5 {
+    width: 62.5%;
+    border-left-width: 30px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+}
+
+.span_6 {
+  width: 100%;
+}
+@media (min-width: 56.25em) {
+  .span_6 {
+    width: 75%;
+    border-left-width: 30px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+}
+
+.span_7 {
+  width: 100%;
+}
+@media (min-width: 56.25em) {
+  .span_7 {
+    width: 87.5%;
+    border-left-width: 30px;
+    padding: 0 0px;
+    margin-left: 0;
+  }
+}
+
+.span_8 {
+  margin-left: 0;
+  width: 100%;
+}
+
+.menu-main-menu-container {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+@media (min-width: 56.25em) {
+  .menu-main-menu-container {
+    float: left;
+  }
+}
+.menu-main-menu-container li {
+  display: block;
+  margin: 1em 2em 0 0;
+  text-align: center;
+}
+@media (min-width: 56.25em) {
+  .menu-main-menu-container li {
+    display: inline-block;
+    margin: 4em 2em 0 0;
+    text-align: left;
+  }
+}
+.menu-main-menu-container li a {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+
+img.logo {
+  width: 6em;
+}
+@media (min-width: 56.25em) {
+  img.logo {
+    width: 10em;
+  }
+}
+
+.site-header h1 {
+  display: none;
+}
+@media (min-width: 56.25em) {
+  .site-header h1 {
+    display: block;
+  }
+}
+.site-header .wrapper {
+  padding: 0;
+}
+
+.mobile-nav {
+  display: none;
+}
+@media (min-width: 56.25em) {
+  .mobile-nav {
+    float: right;
+    display: inline-block;
+  }
+}
+
+.mobile-btn {
+  background-image: url("/images/mobile-btn.png");
+  display: block;
+  width: 2.75em;
+  height: 2.75em;
+  float: right;
+  margin: 1.4em 0 0 0;
+  cursor: pointer;
+}
+@media (min-width: 56.25em) {
+  .mobile-btn {
+    display: none;
+  }
+}
+
+.icon-wrapper {
+  margin: 0.6em 2em 3em 0;
+  text-align: center;
+}
+@media (min-width: 56.25em) {
+  .icon-wrapper {
+    float: right;
+    margin: 3.6em 2em 0 0;
+    text-align: auto;
+  }
+}
+
+.bg-img {
+  background-image: url("/images/blue-bg.jpg");
+  background-position: middle;
+  background-size: cover;
+}
+
+.bg-img-2 {
+  background-image: url("/images/events_03.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+li {
+  display: inline-block;
+  margin: 0 3em 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: "Gentona-ExtraBold";
+}
+
+.main-site-footer {
+  padding: 2em 0 13em;
+  margin: 0 0 3em;
+}
+@media (min-width: 56.25em) {
+  .main-site-footer {
+    padding: 2em 0 4em;
+    border-top: solid #e3df00 1px;
+    margin: 0;
+  }
+}
+.main-site-footer p {
+  margin: 0;
+  font-weight: 100;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  float: left;
+}
+.main-site-footer .spacer {
+  margin: 0 0.5em;
+}
+
+/*============================
+import UI 
+=============================*/
+input {
+  padding: 0.75em 0.50em 0.75em 0.50em;
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #e3df00;
+  color: #e3df00;
+}
+@media (min-width: 56.25em) {
+  input {
+    font-size: 1em;
+  }
+}
+
+textarea {
+  border: none;
+  background: transparent;
+  border: 1px solid #e3df00;
+  width: 100%;
+  font-size: 1em;
+  padding: 0.75em 0.50em 0.75em 0.50em;
+  color: #e3df00;
+}
+
+.ninja-forms-required-items {
+  font-size: 80%;
+  padding: 0 0 1em;
+}
+
+.donate {
+  background-color: #ec2c69;
+  color: #e3df00;
+  padding: 1em 3em;
+  margin: 2em 0;
+  cursor: pointer;
+  width: auto;
+  border: none;
+  letter-spacing: 0.05em;
+  -webkit-appearance: none;
+  border-radius: 0;
+  display: inline-block;
+}
+
+.donate-alt {
+  background-color: #e3df00;
+  color: black;
+  padding: 1em 3em;
+  margin: 2em 0;
+  cursor: pointer;
+  width: auto;
+  border: none;
+  letter-spacing: 0.05em;
+  -webkit-appearance: none;
+  border-radius: 0;
+  display: inline-block;
+}
+
+.sticky-donate {
+  background-color: #e3df00;
+  color: black;
+  padding: 0.5em 0;
+  margin: 0;
+  cursor: pointer;
+  width: auto;
+  border: none;
+  letter-spacing: 0.05em;
+  display: block;
+  position: fixed;
+  -webkit-appearance: none;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  border-radius: 0;
+  z-index: 99999;
+}
+@media (min-width: 56.25em) {
+  .sticky-donate {
+    right: 0;
+    top: 0;
+    padding: 0.25em 3em;
+    width: auto;
+    bottom: auto;
+    left: auto;
+  }
+}
+
+.sticky-form {
+  height: 0;
+  width: 0;
+}
+
+label {
+  color: #e3df00;
+  font-family: "Lato", sans-serif;
+}
+
+input {
+  color: #e3df00;
+}
+
+/*============================
+import misc
+=============================*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}

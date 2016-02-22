@@ -1,20 +1,71 @@
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
+		
+		{% include inlineJSCSS.html %}
+		<script type='text/javascript' src='/js/respond.min1159.js?ver=1.4.2'></script>
+		<script type='text/javascript' src='/js/jquery4a80.js?ver=1.11.2'></script>
+		<script type='text/javascript' src='/js/jquery-migrate.min1576.js?ver=1.2.1'></script>
+		<script type='text/javascript' src='/js/modernizr68b3.js?ver=1'></script>
+		<script type='text/javascript' src='/js/init68b3.js?ver=1'></script>
+		<script type='text/javascript' src='/js/jquery.fitvids68b3.js?ver=1'></script>
+		<script type='text/javascript' src='/js/underscore.minaff7.js?ver=1.6.0'></script>
+		<script type='text/javascript' src='/js/backbone.mincfa9.js?ver=1.1.2'></script>
+	</head>
+	<body class="home blog">
+		<header class="site-header white">
+		    <div class="wrapper">
+		        <a href="/"><img class="logo" src="/images/logo.png" alt="The Shabbos Project Chicago" /></a>
+		        <div class="mobile-btn"></div>
+		        <div class="mobile-nav">
+		            <div class="menu-main-menu-container">
+		                <ul id="menu-main-menu" class="menu">
+		                    <li><a href="/">Home</a></li>
+		                    <li><a href="/keep-it/">Keep It</a></li>
+		                    <li><a href="/events/">Events</a></li>
+		                    <li><a href="/contact/">Contact</a></li>
+		                </ul>
+		            </div>              
+		            <div class="icon-wrapper">
+		                <div class="icons top">
+		                    <a target="_blank" href="https://www.facebook.com/The-Shabbos-Project-Chicago-302610709926486/timeline/"><i class="fa fa-facebook"></i></a>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</header>
+		{{ content }}
+		<div class="regular-height muddy-purple color-yellow" id="contact">
+			<div class="centered">
+				<div class="centered-content">
+					<div class="wrapper">
+						<div class="row">
+							<div class="span_8 col text-center">
+								<img class="down-arrow" src="/images/down-arrow-yellow.png" alt="scroll down" />
+								<p>To make a donation, please contact Miriam Schreiber at 224-735-0015 to learn more</P>
+								<p>For general questions send us an email at <a href="mailto:info@ShabbosProjectCHI.com">info@ShabbosProjectCHI.com</a> or send us a note below:</p>
+							</div>
+						</div>
+						<div class="row">
+							<script type="text/javascript" src="https://secure.jotformpro.com/jsform/52524714405955"></script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="main-site-footer muddy-purple color-yellow">
+		    <div class="wrapper">
+		        <div class="icons top">
+		            <p class="left">info@ShabbosProjectCHI.com</p>
+		            <a target="_blank" href="https://www.facebook.com/The-Shabbos-Project-Chicago-302610709926486/timeline/"><i class="fa fa-facebook"></i></a>
+		        </div>
+		    </div>
+		</footer>
+	</body>
 </html>
