@@ -1,4 +1,3 @@
-@import url("http://hello.myfonts.net/count/2ed6ee");
 /*============================
 import variables
 =============================*/
@@ -68,8 +67,8 @@ table {
 /* @import must be at top of file, otherwise CSS will not work */
 @font-face {
   font-family: 'Gentona-ExtraBold';
-  src: url("../fonts/2ED6EE_0_0.eot");
-  src: url("../fonts/2ED6EE_0_0d41d.eot?#iefix") format("embedded-opentype"), url("../fonts/2ED6EE_0_0.woff2") format("woff2"), url("../fonts/2ED6EE_0_0.woff") format("woff"), url("../fonts/2ED6EE_0_0.ttf") format("truetype"), url("../fonts/2ED6EE_0_0.svg#wf") format("svg");
+  src: url("/fonts/2ED6EE_0_0.eot");
+  src: url("/fonts/2ED6EE_0_0d41d.eot?#iefix") format("embedded-opentype"), url("/fonts/2ED6EE_0_0.woff2") format("woff2"), url("/fonts/2ED6EE_0_0.woff") format("woff"), url("/fonts/2ED6EE_0_0.ttf") format("truetype"), url("/fonts/2ED6EE_0_0.svg#wf") format("svg");
 }
 
 body {
