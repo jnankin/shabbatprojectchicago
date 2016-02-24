@@ -19,6 +19,13 @@ jQuery(document).ready(function () {
 
 });
 
+jQuery('.video-thumb').click(function() {
+    var youtubeId = jQuery(this).attr('rel');
+    jQuery('.video-container').fadeIn();
+    jQuery('.video-container').append('<iframe width="1130" height="636" src="https://www.youtube.com/embed/' + youtubeId + '?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+    jQuery('.video-thumb').hide();
+    jQuery(".video").fitVids();
+});
 
 jQuery(function() {
   jQuery('a[href*=#]:not([href=#])').click(function() {
