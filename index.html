@@ -1,86 +1,134 @@
 ---
 title: The Shabbat Project Chicago
 ---
-<div class="full-height purple color-powder-blue intro">
-        <div class="centered">
-            <div class="centered-content">
-                <div class="wrapper clearfix">
-                    <div class="row">
-                        <div class="span_8 col">
-                            <h1><span class="box-outline">The Shabbat Project 2016 / November 11-12</span></h1>
-                            <h1 class="hero-line">Jews in greater Chicagoland and all around the world will unite in a spirit of joy, peace and celebration.</h2>
-                            <ul class="stats">
-                                <li><span class="numberals">65</span>Countries</li>
-                                <li><span class="numberals">465</span>Cities</li>
-                                <li><span class="numberals">1</span>Million People</li>
-                            </ul>
-                            
-                            <img class="down-arrow" src="/images/down-arrow-yellow.png" alt="scroll down" />
-                        </div>
+
+<div class="regular-height purple color-powder-blue intro">
+    <div class="centered">
+        <div class="centered-content">
+            <div class="wrapper clearfix">
+                <div class="row">
+                    <div id="countdown"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="regular-height light-blue color-powder-blue intro">
+    <div class="centered">
+        <div class="centered-content">
+            <div class="wrapper clearfix">
+                <div class="row">
+                    <div class="video-container" style="display:none;"></div>
+                    <img class="video-thumb" rel="S2EkDLqszHs" src="/images/manifesto-color.jpg" alt="video thumb image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="regular-height purple color-powder-blue intro">
+    <div class="centered">
+        <div class="centered-content">
+            <div class="wrapper clearfix">
+                <div class="row">
+                    <div class="span_8 col">
+                        <h1><span class="box-outline">The Shabbat Project 2016 / November 11-12</span></h1>
+                        <h1 class="hero-line">Jews in greater Chicagoland and all around the world will unite in a spirit of joy, peace and celebration.</h2>
+                        <ul class="stats">
+                            <li><span class="numberals">65</span>Countries</li>
+                            <li><span class="numberals">465</span>Cities</li>
+                            <li><span class="numberals">1</span>Million People</li>
+                        </ul>
+
+                        <img class="down-arrow" src="/images/down-arrow-yellow.png" alt="scroll down" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
 
-    <div class="regular-height bg-img">
-        <div class="centered">
-            <div class="centered-content">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="span_5 col text-left">
-                            <h2><span class="block color-black white">The Shabbos Project</span></h2>   
-                            <h2><span class="block color-yellow pink">unites all Jews in keeping a single Shabbat together</span></h2>  
-                        </div>
+<div class="regular-height bg-img">
+    <div class="centered">
+        <div class="centered-content">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="span_5 col text-left">
+                        <h2><span class="block color-black white">The Shabbos Project</span></h2>
+                        <h2><span class="block color-yellow pink">unites all Jews in keeping a single Shabbat together</span></h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
-
-
-
-    <div class="regular-height pink color-white center">
-        <div class="centered">
-            <div class="centered-content">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="span_8 col">
-                            <h1 class="larger">Take a day out of life to live.</h1>                             
-                        </div>
+<div class="regular-height pink color-white center">
+    <div class="centered">
+        <div class="centered-content">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="span_8 col">
+                        <h1 class="larger">Take a day out of life to live.</h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
 
-    <div class="regular-height blue color-powder-blue">
-        <div class="centered">
-            <div class="centered-content">
-                <div class="wrapper">
-                    <div class="row">   
-                        <div class="span_4 col text-left">
-                            <h2>The Shabbat Project</h2>
-                            <p>
-                                Me, you and Jews all over the world experiencing one complete Shabbat together.  Together we will keep the shabbat of November 11/12, 2016 
-                                from sunset to stars out.  Join in.  Let's move the world together.
-                            </p>
-                        </div>
+<div class="regular-height blue color-powder-blue">
+    <div class="centered">
+        <div class="centered-content">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="span_4 col text-left">
+                        <h2>The Shabbat Project</h2>
+                        <p>
+                            Me, you and Jews all over the world experiencing one complete Shabbat together.  Together we will keep the shabbat of November 11/12, 2016
+                            from sunset to stars out.  Join in.  Let's move the world together.
+                        </p>
                     </div>
+                </div>
 
 
-                    <div class="row">
-                        <div class="span_4 col skip-two color-yellow center">
-                            <br /><a class="donate" href="/events">See Events and Sign up!</a>
-                        </div>
+                <div class="row">
+                    <div class="span_4 col skip-two color-yellow center">
+                        <br /><a class="donate" href="/events">See Events and Sign up!</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+
+<script type="text/javascript" src="/js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+    jQuery().ready(function(){
+        // countdown
+        jQuery('#countdown').countdown('2016/11/11').on('update.countdown', function(event) {
+            var jQuerythis = jQuery(this).html(event.strftime(''
+                    + '<div><span class="count">%D</span><span class="count-type">day%!d</div>'
+                    + '<div><span class="count">%H</span><span class="count-type">hours</div>'
+                    + '<div><span class="count">%M</span><span class="count-type">minutes</div>'
+                    + '<div><span class="count no-sep">%S</span><span class="count-type last">seconds</div>'));
+        });
+
+        jQuery('.video-thumb').click(function() {
+            var youtubeId = jQuery(this).attr('rel');
+            jQuery('.video-container').fadeIn();
+            jQuery('.video-container').append('<iframe width="1130" height="636" src="https://www.youtube.com/embed/' + youtubeId + '?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+            jQuery('.video-thumb').hide();
+            jQuery(".video").fitVids();
+        });
+    });
+</script>

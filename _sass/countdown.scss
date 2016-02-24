@@ -1,0 +1,62 @@
+#countdown {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-size: 2.5em;
+  font-family: "Gentona-ExtraBold";
+  color: white;
+  padding-top: .2em;
+}
+@media (min-width: 56.25em) {
+  #countdown {
+    font-size: 5.5em;
+  }
+}
+@media (min-width: 64em) {
+  #countdown {
+    font-size: 7em;
+  }
+}
+@media (min-width: 93.75em) {
+  #countdown {
+    font-size: 10em;
+  }
+}
+#countdown div {
+  display: inline-block;
+  text-align: center;
+}
+#countdown div span {
+  float: left;
+  clear: left;
+  display: block;
+  width: 100%;
+  text-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+#countdown div span.count-type {
+  font-size: 0.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-left: -2em;
+  margin-top: -1em;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+@media (min-width: 56.25em) {
+  #countdown div span.count-type {
+    margin-top: 3em;
+  }
+}
+#countdown div span.count-type.last {
+  margin-left: 0;
+}
+#countdown span.count:after {
+  content: ':';
+  margin: 0 0.2em;
+}
+#countdown span.count.no-sep:after {
+  content: '';
+  margin: 0;
+}

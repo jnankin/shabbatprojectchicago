@@ -1,7 +1,7 @@
 .form-collapse-table:hover {
-box-shadow:none;
-text-shadow:none;
-background: #00457c;
+  box-shadow:none;
+  text-shadow:none;
+  background: #00457c;
 }
 .form-line-active, .form-line-error {
 	background: transparent !important;
@@ -68,4 +68,8 @@ td.button a.donate {
   #dedications {
     display: none;
   }
+}
+
+.video-thumb {
+  max-width: 1400px;
 }
