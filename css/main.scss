@@ -3,6 +3,15 @@
 ---
 @charset "utf-8";
 
+$phoneMinWidth: 320px;
+$phoneMaxWidth: 480px;
+
+$tabletMinWidth: 768px;
+$tabletMaxWidth: 1024px;
+
+$laptopMinWidth: 1200px;
+$laptopMaxWidth: 1600px;
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

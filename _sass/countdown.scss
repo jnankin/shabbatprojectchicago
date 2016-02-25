@@ -3,26 +3,13 @@
   float: left;
   text-align: center;
   width: 100%;
-  font-size: 2.5em;
+  font-size: 120px;
   font-family: "Gentona-ExtraBold";
   color: white;
-  padding-top: .2em;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
-@media (min-width: 56.25em) {
-  #countdown {
-    font-size: 5.5em;
-  }
-}
-@media (min-width: 64em) {
-  #countdown {
-    font-size: 7em;
-  }
-}
-@media (min-width: 93.75em) {
-  #countdown {
-    font-size: 10em;
-  }
-}
+
 #countdown div {
   display: inline-block;
   text-align: center;
@@ -35,28 +22,41 @@
   text-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
 }
 #countdown div span.count-type {
-  font-size: 0.1em;
+  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 0.01em;
   text-align: center;
-  margin-left: -2em;
-  margin-top: -1em;
+  margin-left: -20px;
+  margin-top: 40px;
   width: 100%;
   font-family: "Montserrat", sans-serif;
 }
-@media (min-width: 56.25em) {
-  #countdown div span.count-type {
-    margin-top: 3em;
-  }
-}
+
 #countdown div span.count-type.last {
   margin-left: 0;
 }
 #countdown span.count:after {
   content: ':';
-  margin: 0 0.2em;
+  margin: 0 10px;
 }
 #countdown span.count.no-sep:after {
   content: '';
   margin: 0;
+}
+
+
+@media (max-width: $phoneMaxWidth){
+  #countdown {
+    font-size: 54px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+  }
+
+  #countdown div span.count-type {
+    font-size: 12px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+
 }
