@@ -132,7 +132,7 @@ td.button a.donate {
       }
     }
 
-    @media (max-height: $phoneMaxWidth){
+    @media (max-width: $phoneMaxWidth){
       height: 375px;
 
       .mask {
